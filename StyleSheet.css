@@ -1,0 +1,31 @@
+#loginLayout TextField, 
+#loginLayout PasswordField{
+    -fx-background-radius: 8px;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 5,0,0,1 ); 
+}
+#loginLayout Button{
+    -fx-background-radius: 15px;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0,0,1 ); 
+    /* -fx-effect: innershadow( gaussian , rgba(0,0,0,0.7) , 20,0,0,0 );*/
+}
+#mainMenuLayout Button{
+    -fx-background-radius: 15px;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 10,0,0,1 ); 
+}
+
+#mainMenuLayout TextField{
+    -fx-background-radius: 8px;
+    -fx-text-fill: black;
+}
+#mainMenuLayout ComboBox{
+    -fx-background-radius: 15px;
+    -fx-border-color: gray;
+    -fx-border-radius: 15px;
+
+}
+#mealsno, #drinksno{
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-color: gray;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.7) , 4,0,0,1 ); 
+}
